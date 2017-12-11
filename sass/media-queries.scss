@@ -1,0 +1,153 @@
+@media screen and (max-width: 840px) {
+	.red-instrument-panel {
+		width: 70%;
+		padding-left: 1rem;
+	}
+	.view-progress-btn{
+		margin-right: 1rem;
+	}
+		.search-input{
+		margin-right: 1rem;
+	}
+	.vert-stick{
+		margin: 0 1rem;
+	}
+	.category-btn{
+		font-size: 1.4rem;
+	}
+	.arrow-down-category{
+		width: 1.6rem;
+		height: 1.6rem;
+		background-size: 60%;
+	}
+	.athletes-itm-cont{
+		margin-top: 2rem;
+	}
+	.athletes-itm{
+		width: 120px;
+		height: 120px;
+		margin-top: 2rem;
+	}
+}
+@media screen and (max-width: 776px) {
+	.search-param-panel{
+		display: none;
+	}
+	.select-athlets-nav {
+		justify-content: center;
+	a{
+		font-size: 1.2rem;
+	}}
+	.main-banner-title{
+		text-align: center;
+			&:after{
+				width:100%;
+				}
+	}
+	.athl-block-title{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 750px) {
+	.navbar-top li:not(:last-child) {
+		margin-right: 4rem;
+	}
+
+}
+
+@media screen and (max-width: 598px) {
+	.navbar-top li:not(:last-child) {
+		margin-right: 2rem;
+	}
+	.post-panel-inner {
+		padding-left: 0;
+		flex-direction: column;
+	}
+	.red-instrument-panel {
+		order: 1;
+		width: 100%;
+		padding-left: 3rem;
+	}
+	.post-panel-name {
+		display: none;
+	}
+	.main-banner {
+		padding-top: 3rem;
+	}
+	.athletes-block{
+		margin-bottom: 5rem;
+	}
+	.copyright-and-smth{
+		font-size: 0.7rem;
+		padding: 1rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.touch-menu {
+		display: inline-block;
+	}
+	.top-user-panel {
+		display: none;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 5rem;
+		a{
+			margin: 0.5rem!important;
+			.fa{
+				font-size: 2rem;
+			}
+		}
+	}
+	.navbar-top {
+		display: none;
+		margin: 4rem 0 0;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: flex-start;
+		li{
+			margin-top: 1rem;
+		}
+	}
+	.top-panel .top-cont{
+		//flex-direction: column;
+		//justify-content: flex-end;
+	}
+	.red-instrument-panel{
+		padding-left: 1rem;
+	}
+	.instrument-list .fa{
+		font-size: 2rem;
+		padding: 1.5rem 0.2rem;
+	}
+	.select-athlets-itm-cont{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.social-spr{
+		right: 2rem;
+		top: 2.5rem;
+	}
+	.copyright-nav li{
+		padding: 0 0.5rem;
+	}
+	
+}
+
+@media screen and (max-width: 360px) {
+	.athletes-itm-cont{
+		justify-content: space-around;
+	}
+	.social-spr{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		a{
+			margin-right: 0!important;
+			margin-top: 1rem;
+		}
+	}
+	
+}

@@ -28,9 +28,20 @@ input {
 .bold {
 	font-weight: 700;
 }
+.expand{
+	display: flex!important;
+}
 
+.touch-menu{
+	display: none;
+	font-size: 4rem;
+	cursor: pointer;
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+}
 .top-panel {
-	background-color: #000; //padding: 1.175rem 0 1.325rem 0;
+	background-color: #000; 
 	.top-cont {
 		min-height: 6rem;
 		width: 100%;
@@ -42,13 +53,15 @@ input {
 		padding-right: 5%;
 	}
 }
-
+.top-cont-highter{
+	height: 20rem;
+}
 .main-mini-logo {
 	width: 28px;
 	height: 32px;
 	background: url('../img/main-mini-logo.png') no-repeat center center;
 	float: left;
-	margin-left: 5%;
+	margin-left: 2%;
 	margin-top: 1.175rem;
 }
 
@@ -114,7 +127,7 @@ input {
 	justify-content: space-between;
 	align-items: center;
 	min-height: 6rem;
-	padding-left: 10%;
+	padding-left: 6.3%;
 }
 
 .post-panel-name {

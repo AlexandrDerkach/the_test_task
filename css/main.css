@@ -162,6 +162,22 @@ input {
   font-weight: 700;
 }
 
+.expand {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.touch-menu {
+  display: none;
+  font-size: 4rem;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+
 .top-panel {
   background-color: #000;
 }
@@ -192,12 +208,16 @@ input {
   padding-right: 5%;
 }
 
+.top-cont-highter {
+  height: 20rem;
+}
+
 .main-mini-logo {
   width: 28px;
   height: 32px;
   background: url("../img/main-mini-logo.png") no-repeat center center;
   float: left;
-  margin-left: 5%;
+  margin-left: 2%;
   margin-top: 1.175rem;
 }
 
@@ -315,7 +335,7 @@ input {
       -ms-flex-align: center;
           align-items: center;
   min-height: 6rem;
-  padding-left: 10%;
+  padding-left: 6.3%;
 }
 
 .post-panel-name {
