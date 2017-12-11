@@ -1,1 +1,158 @@
 @import 'reset';
+html,
+body {
+	font-size: 10px;
+	font-weight: 400;
+	font-family: refrigerator-deluxe, sans-serif;
+	overflow-x: hidden;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.top-panel {
+	background-color: #000; //padding: 1.175rem 0 1.325rem 0;
+	.top-cont {
+		min-height: 6rem;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		padding-right: 5%;
+	}
+}
+
+.main-mini-logo {
+	width: 28px;
+	height: 32px;
+	background: url('../img/main-mini-logo.png') no-repeat center center;
+	float: left;
+	margin-left: 5%;
+	margin-top: 1.175rem;
+}
+
+.navbar-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	li {
+		//float: left;
+		&:not(:last-child) {
+			margin-right: 5rem;
+		}
+	}
+	a {
+		font-size: 1.8rem;
+		color: #fff;
+		&:hover {
+			color: #ff0317;
+		}
+	}
+}
+
+.top-user-panel {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	a {
+		font-size: 1.5rem;
+		color: #fff;
+		position: relative;
+		&:not(:last-child) {
+			margin-right: 1.4rem;
+		}
+		&:hover {
+			.fa {
+				color: coral;
+			}
+		}
+	}
+}
+
+.notice-cout {
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	background-color: #ff0317;
+	position: absolute;
+	top: -40%;
+	right: -50%;
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&:hover {
+		color: #fff;
+	}
+}
+
+.post-panel-inner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 6rem;
+  padding-left: 10%;
+}
+
+.post-panel-name {
+	font-size: 1.8rem;
+	color: #000;
+}
+
+.red-instrument-panel {
+	background-color: #ff0317;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 50%;
+	padding: 0 2rem 0 3rem;
+}
+
+.instrument-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 6rem;
+	a{
+		&:not(:last-child){
+			margin-right: 1rem;
+		}
+	}
+	.fa {
+		font-size: 2rem;
+		color: #fff;
+		padding: 1.5rem 0.5rem;
+		&:hover {
+			color: #fff;
+			border-bottom: 2px solid #fff;
+		}
+		
+	}
+}
+
+.add-instrument-touch{
+  width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	font-size: 1.5rem;
+	color: #fff;
+	text-align: center;
+	padding-top: 2px;
+}
+
+.main-banner{
+	padding: 0 0 7rem 0;
+}
