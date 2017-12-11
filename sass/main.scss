@@ -9,6 +9,15 @@ body {
 	color: #fff;
 }
 
+a {
+	text-decoration: none;
+	color: #fff;
+	&:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+}
+
 button,
 input {
 	outline: 0;
@@ -51,14 +60,12 @@ input {
 	margin-left: auto;
 	margin-right: auto;
 	li {
-
 		&:not(:last-child) {
 			margin-right: 7rem;
 		}
 	}
 	a {
 		font-size: 1.8rem;
-		color: #fff;
 		&:hover {
 			color: #ff0317;
 		}
@@ -72,7 +79,6 @@ input {
 	align-items: center;
 	a {
 		font-size: 1.5rem;
-		color: #fff;
 		position: relative;
 		&:not(:last-child) {
 			margin-right: 1.4rem;
@@ -392,10 +398,9 @@ input {
 	align-items: center;
 	a {
 		font-size: 1rem;
-		color: #fff;
 		margin-right: 1.25rem;
-		&:hover{
-			.social-cout{
+		&:hover {
+			.social-cout {
 				text-decoration: underline;
 			}
 		}
@@ -442,12 +447,12 @@ input {
 	line-height: 4rem;
 	color: #fff;
 	position: absolute;
-  left: 1.5rem;
+	left: 1.5rem;
 	top: 45%;
-	&:hover{
+	&:hover {
 		text-decoration: underline;
 	}
-	&:after{
+	&:after {
 		display: block;
 		content: '';
 		height: 2px;
@@ -461,6 +466,85 @@ input {
 	}
 }
 
-.footer{
+.footer {
 	margin-top: 100px;
+	padding: 4rem 0 0;
+	background-color: #000;
+	.container {
+		position: relative;
+	}
+
+}
+
+.footer-nav {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 7rem;
+	li {
+		&:not(:last-child) {
+			margin-bottom: 2rem;
+		}
+	}
+	a {
+		font-size: 1.5rem;
+	}
+}
+
+.social-spr {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	flex-wrap: wrap;
+	position: absolute;
+	right: 0;
+	top: 4rem;
+	a {
+		&:not(:last-child) {
+			margin-right: 4rem;
+		}
+	}
+	.fa {
+		font-size: 2.2rem;
+		color: #fff;
+		&:hover {
+			color: #ff0317;
+		}
+	}
+}
+
+.spr-ttl {
+	font-size: 1.8rem;
+	position: absolute;
+	top: -2.8rem;
+}
+
+.copyright-and-smth {
+	padding: 3rem 0 4rem;
+	font-size: 1.3rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.copyright-nav {
+	display: flex;
+	li {
+		padding: 0 1.5rem;
+		&:first-child {
+			padding-left: 0;
+		}
+		&:last-child {
+			padding-right: 0;
+		}
+		&:not(:last-child){
+			border-right: 1px solid #fff;
+		}
+	}
+	a:hover{
+		text-decoration: underline;
+	}
 }
